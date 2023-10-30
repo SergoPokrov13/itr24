@@ -1,0 +1,109 @@
+.slidecontact{
+    background-image: url(/PurplePhon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: 1089px;
+    position: relative;
+}
+
+.slidecontact__block{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 948px;
+    top: 48px;
+    left: 48px;
+}
+
+.slidecontact__title{
+    font-family: 'Russo One';
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+color: var(--unnamed, #FFF);
+margin: 0;
+}
+
+.slidecontact__subtitile{
+    color: var(--unnamed, #FFF);
+font-family: 'Russo One';
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 115px 0 0;
+}
+
+.slidecontact__text{
+    font-family: 'Exo 2';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+color: var(--unnamed, #FFF);
+margin: 25px 0 0;
+}
+
+.slidecontact__list{
+    list-style: none;
+    margin: 55px 0 0;
+    padding: 0;
+
+}
+
+.slidecontact__item{
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.slidecontact__item_title{
+    color: var(--unnamed, #FFF);
+    text-align: center;
+    font-family: 'Russo One';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 10px 0 0;
+}
+
+.slidecontact__item_subtitle{
+    font-family: 'Exo 2';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 ;
+color: white;
+}
+
+.slidecontact__block-icon{
+    display: flex;
+    margin: 48px 0 0;
+}
+
+.slidecontact__icon{
+    height: 57px;
+    width: 57px;
+    border: none;
+    padding: 0;
+    margin: 0 15px 0 0;
+    background: none;
+}
+
+#telegram{
+    background: url('/telegramIcon.svg');
+}
+
+#vk{
+    background: url(/vkIcon.svg);
+}

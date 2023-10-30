@@ -1,0 +1,99 @@
+
+
+.slidebitrix{
+    background-image: url("/bluePhon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1089px;
+    position: relative;
+}
+
+.slidebitrix__block{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+padding: 28px 14px 0px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 44px;
+max-width: 948px;
+    top: 30%;
+    left: 48px;
+}
+
+.slidebitrix__title{
+    font-family: 'Russo One';
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+color: var(--unnamed, #FFF);
+margin: 0;
+}
+
+.slidebitrix__subtitle{
+    font-family: 'Exo 2';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+color: var(--unnamed, #FFF);
+}
+
+.slidebitrix__button-link{
+    display: flex;
+width: 250px;
+height: 46px;
+padding: 4px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10000000000px;
+border: 1px solid var(--unnamed, #FFF);
+background: none;
+font-family: 'Exo 2';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--unnamed, #FFF);
+}
+
+.slidebitrix__list{
+    display: flex;
+    list-style: none;
+    margin: 180px 0 0;
+    padding: 0;
+
+}
+
+.slidebitrix__item{
+    margin: 0 45px 0 0;
+}
+
+.slidebitrix__item_title{
+    font-family: 'Russo One';
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+color: white;
+}
+
+.slidebitrix__item_subtitle{
+    font-family: 'Exo 2';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 ;
+color: white;
+}
